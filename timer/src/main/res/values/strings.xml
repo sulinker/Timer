@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Timer</string>
+    <string name="khft">中考倒计时</string>
+    <string name="khyr_khft">距离中考还有：</string>
+    <string name="pawn">寒假倒计时</string>
+    <string name="fprh">过年倒计时</string>
+</resources>

@@ -1,0 +1,9 @@
+include ':timer'
+include ':guessnumber'
+include ':chess'
+include ':recite'
+include ':vacationtimer'
+include ':test2'
+include ':test1'
+include ':app'
+rootProject.name = "learning"

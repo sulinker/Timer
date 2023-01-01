@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6090cb">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/bt_khft"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_sty"
+                android:text="@string/khft"
+                android:textColor="#f9d977"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/bt_pawn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_sty"
+                android:text="@string/pawn"
+                android:textColor="#f9d977"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+
+            <Button
+                android:id="@+id/bt_fprh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_sty"
+                android:text="@string/fprh"
+                android:textColor="#f9d977"
+                android:padding="10dp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
